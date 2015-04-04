@@ -6,7 +6,7 @@
 
 # Set environment variables USERNAME, TEAM, and POWER to customize your Folding client.
 
-FROM fedora
+FROM fedora:21
 
 # If you set USERNAME to Anonymous, the folding@home client pauses for 5 minutes, but will then begin processing data.
 ENV USERNAME Anonymous
